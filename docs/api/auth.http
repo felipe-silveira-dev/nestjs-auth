@@ -1,12 +1,7 @@
-POST http://localhost:3000/auth/login
+POST http://localhost:3000/auth-v2/login
 Content-Type: application/json
 
 {
-    "email": "felipes@gmail.com",
+    "email": "nayaras@gmail.com",
     "password": "password"
 }
-
-###
-
-GET http://localhost:3000/auth/me
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImVtYWlsIjoiZmVsaXBlc0BnbWFpbC5jb20iLCJpYXQiOjE3MjM0MTMyMjQsImV4cCI6MTcyMzQ5OTYyNH0.EFloN6T-GOa-xWencrsY9muZgSMdPGP0W9G0-524Nbg
